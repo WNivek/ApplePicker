@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Basket : MonoBehaviour {
 
-    public Text scoreGT;
+    public Text scoreGT; // thanks to Nicholas Vuono for the nudge, switching from GUIText to Text
 
     void Start() {
         // Find a reference to the ScoreCounter GameObject
